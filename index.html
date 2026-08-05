@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A searchable digital library of John Walker's works on rhetoric and elocution."><title>John Walker Digital Library</title><link rel="stylesheet" href="assets/app.css"></head>
+<body><a class="skip" href="#reader">Skip to text</a>
+<header class="top"><button id="menu" class="navToggle" aria-label="Hide navigation" aria-controls="side" aria-expanded="true"><span aria-hidden="true">☰</span></button><a class="brand" href="#"><b>JW</b><span><strong>John Walker</strong><small>Digital Library</small></span></a><div id="headerBook" class="headerBook" hidden><span class="miniBook" aria-hidden="true">▤</span><span><small>Now reading</small><strong id="headerBookTitle"></strong></span></div><div class="tools"><button id="smaller">A−</button><button id="larger">A+</button><button id="dictionary" aria-pressed="false">◇ Johnson mode</button></div></header>
+<aside id="side" class="side"><label class="label" for="search">Search the library</label><div class="searchbox">⌕ <input id="search" type="search" placeholder="Search Walker…"><kbd>⌘K</kbd></div>
+<nav><button id="readerNav" data-view="reader" hidden>Contents <i>›</i></button><button data-view="library" class="active">Library <i id="bookCount">1</i></button><button data-view="bookmarks">My bookmarks <i id="markCount">0</i></button></nav>
+<details class="featuredSection" data-library-nav open><summary><span>Featured passages from Walker’s Oeuvre</span></summary><div id="featured"></div></details>
+<div id="currentBookBadge" class="currentBook" data-book-nav hidden><span class="bookMedallion" aria-hidden="true"><i></i></span><div><small>Current volume</small><strong id="sideBookTitle"></strong><em id="sideBookMeta"></em></div></div>
+<section data-book-nav hidden><h2>In this book</h2><div id="toc" class="toc"></div></section><footer>Historical text with original page references.<br><button id="about">About this edition</button></footer></aside><button id="scrim" class="scrim" aria-label="Close navigation"></button>
+<main>
+<section id="libraryView" class="view libraryLanding">
+  <div class="libraryHero">
+    <div class="heroCopy">
+      <p class="eyebrow">An historical reference collection · 1732–1807</p>
+      <div class="heroFlourish" aria-hidden="true"><span>✦</span></div>
+      <h1>John Walker<br><em>Digital Library</em></h1>
+      <p class="lede">Explore the art of elocution, rhetoric, pronunciation, gesture, and the expressive voice through searchable editions of Walker’s works.</p>
+      <p class="betaNotice"><strong>Beta</strong><span>This digital library is still under development.</span></p>
+      <p class="curatorLine"><span>Curated by</span><strong>Anders Muskens</strong><small>with the assistance of ChatGPT</small></p>
+      <a class="exploreButton" href="#collectionShelf">Enter the collection <span aria-hidden="true">↓</span></a>
+    </div>
+    <figure class="walkerPortrait">
+      <div class="portraitMat"><img src="assets/portraits/john-walker-ashby.jpg" alt="Portrait of John Walker seated with an open book, painted by Henry Ashby"></div>
+      <figcaption><strong>John Walker</strong><span>Lexicographer, actor &amp; teacher of elocution</span></figcaption>
+    </figure>
+  </div>
+  <section class="cabinet" aria-labelledby="cabinetTitle">
+    <div class="cabinetMedallion"><img src="assets/portraits/john-walker-clerk.jpg" alt="Engraved portrait of John Walker" loading="lazy"></div>
+    <div class="cabinetText"><p class="eyebrow">John Walker · 1732–1807</p><h2 id="cabinetTitle">Actor, teacher, lexicographer</h2><p>Walker began his career on the stage, appearing at Drury Lane under David Garrick and later in Dublin. He left acting in 1768 and became a teacher and lecturer on elocution. His <em>Elements of Elocution</em> (1781) and <em>Critical Pronouncing Dictionary</em> (1791) made him one of the best-known authorities on English speech of his time.</p></div>
+    <div class="platePair" aria-label="Two plates from Walker’s Elements of Elocution">
+      <figure><img src="assets/portraits/elements-elocution-plate-i.jpg" alt="Plate I from Walker’s Elements of Elocution, charting vocal inflections" loading="lazy"><figcaption>Plate I · Inflection</figcaption></figure>
+      <figure><img src="assets/portraits/elements-elocution-plate-iii.jpg" alt="Plate III from Walker’s Elements of Elocution, charting vocal inflections" loading="lazy"><figcaption>Plate III · Modulation</figcaption></figure>
+    </div>
+  </section>
+  <div id="collectionShelf" class="collectionIntro"><span aria-hidden="true">❦</span><div><p class="eyebrow">The collection</p><h2>Choose a volume</h2></div><p>Each edition preserves original pagination while adding full-text search, cross-references, bookmarks, and instant historical dictionary lookup.</p></div>
+  <div id="shelf" class="shelf"></div>
+  <section class="visualCabinet" aria-labelledby="visualCabinetTitle">
+    <header><p class="eyebrow">Visual explorations</p><h2 id="visualCabinetTitle">Three ways into Walker’s system</h2><p>Follow Walker’s ideas spatially, then enter the original text at any term.</p></header>
+    <div class="visualShelf">
+      <a class="visualCard figuresCard" href="figures-map.html"><span class="visualRoman" aria-hidden="true"><i></i><i></i><i></i></span><strong>Figures of Rhetoric</strong><small>A Roman architectural index</small><b>Explore 28 figures →</b></a>
+      <a class="visualCard voiceCard" href="voice-map.html"><span class="visualVoice" aria-hidden="true"><i></i><i></i><i></i><i></i></span><strong>The Speaking Voice</strong><small>An interactive vocal score</small><b>Follow 8 vocal motions →</b></a>
+      <a class="visualCard passionsCard" href="passions-map.html"><span class="visualClouds" aria-hidden="true"><i></i><i></i><i></i></span><strong>The Passions</strong><small>Affinity clouds of expression</small><b>Explore 61 expressions →</b></a>
+    </div>
+  </section>
+  <p class="imageCredits">Portrait by Henry Ashby, engraved portrait after T. Clerk, and plates from <em>Elements of Elocution</em> (1811), via <a href="https://commons.wikimedia.org/wiki/Category:John_Walker_(lexicographer)" target="_blank" rel="noopener">Wikimedia Commons</a>. Public-domain works.</p>
+</section>
+<section id="bookmarksView" class="view" hidden><p class="eyebrow">Saved on this device</p><h1>My bookmarks</h1><div id="markList" class="marklist"></div></section>
+<section id="readerView" class="view" hidden><header class="bookhead"><div><p class="eyebrow"><span id="author"></span> · <span id="year"></span></p><h1 id="title"></h1><p id="edition" class="edition"></p></div><button id="markCurrent" class="star" aria-label="Bookmark current section">☆</button></header><div class="readerbar"><span id="location">Beginning</span><span><button id="copyLink">Copy link</button><button id="copyCite">Copy citation</button></span></div><article id="reader"></article><button id="top">↑ Back to top</button></section>
+</main>
+<footer class="siteCredit"><div class="footerMark" aria-hidden="true">JW</div><div><strong>John Walker Digital Library</strong><p>Curated by Anders Muskens, with the assistance of ChatGPT.</p></div><span class="footerFlourish" aria-hidden="true">❦</span></footer>
+<aside id="results" class="results" aria-hidden="true"><header><div><p class="eyebrow">Search</p><h1 id="resultTitle">Results</h1></div><button id="closeResults">×</button></header><div class="scopes"><button data-scope="book" disabled>This book</button><button data-scope="all" class="active">All books</button></div><p id="summary"></p><div id="resultList"></div></aside>
+<dialog id="term"><button class="close">×</button><p class="eyebrow">Figure of rhetoric</p><h1 id="termTitle"></h1><div id="termText"></div><small id="termMeta"></small><div class="actions"><button id="readTerm">Read full discussion</button><a id="johnsonTerm" target="_blank" rel="noopener">Look up in Johnson</a></div></dialog>
+<dialog id="johnsonBox" class="collapsed" aria-labelledby="johnsonTitle"><button class="close" aria-label="Close Johnson lookup">×</button><div class="johnsonHead"><div><p class="eyebrow">Samuel Johnson’s Dictionary · 1755</p><h1 id="johnsonTitle"></h1><p id="johnsonStatus" class="johnsonStatus" role="status">Entry ready to load.</p></div><div class="johnsonActions"><button id="johnsonToggle" aria-expanded="false">Show Johnson entry</button><button id="johnsonSearch">Search Walker</button><button id="johnsonCopy">Copy word</button><a id="johnsonOpen" target="_blank" rel="noopener">Open full entry ↗</a></div></div><div class="johnsonFrameWrap"><iframe id="johnsonFrame" title="Entry from Samuel Johnson’s Dictionary Online" src="about:blank"></iframe></div><small class="johnsonCredit">Live transcription supplied by <a href="https://johnsonsdictionaryonline.com/" target="_blank" rel="noopener">Johnson’s Dictionary Online</a>. If the entry does not appear, use “Open full entry”.</small></dialog>
+<dialog id="citationBox" aria-labelledby="citationTitle"><button class="close" aria-label="Close citation tool">×</button><p class="eyebrow">Selected passage</p><h1 id="citationTitle">Copy a citation</h1><blockquote id="citationQuote"></blockquote><p class="citationLocation"><span id="citationBook"></span><strong id="citationPage"></strong></p><label class="citationLabel" for="citationStyle">Citation style</label><select id="citationStyle"><option value="chicago">Chicago</option><option value="mla">MLA</option><option value="apa">APA</option><option value="oxbridge">Oxbridge</option></select><div class="citationPreview"><small>Citation preview</small><p id="citationText"></p></div><div class="citationActions"><button id="copyQuoteCitation">Copy quotation + citation</button><button id="copyCitationOnly">Copy citation only</button></div></dialog>
+<dialog id="aboutBox"><button class="close">×</button><p class="eyebrow">About</p><h1>About this edition</h1><p>This reference preserves Walker’s historical text and printed page numbers while adding search, cross-references, bookmarks, citations, and dictionary lookup.</p><p>Select or double-click a single word to open its Johnson lookup card, then load the live dictionary entry if wanted. Select several words to copy the passage with a Chicago, MLA, APA, or Oxbridge citation.</p></dialog>
+<div id="toast"></div>
+<script src="data/books.js"></script><script src="assets/app.js"></script></body></html>
