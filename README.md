@@ -7,6 +7,7 @@ Curated by Anders Muskens, with the assistance of ChatGPT.
 
 Installed books:
 
+- *Elements of Elocution*, Volume I (1781)
 - *Elements of Elocution*, Volume II (1781)
 - *A Rhetorical Grammar* (1822)
 
